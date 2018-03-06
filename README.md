@@ -7,8 +7,13 @@ Additionally, for pointer-generator networks such as that described in [this pap
 ## To run
 
 To run the visualizer, run
+for python 2.7
 ```
 python -m SimpleHTTPServer
+```
+for python 3.5
+```
+python  -m http.server
 ```
 from this directory then navigate to `http://localhost:8000/` in browser. The visualizer will show some example data.
 
